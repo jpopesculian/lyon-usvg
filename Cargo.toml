@@ -1,0 +1,11 @@
+[package]
+name = "lyon-usvg"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lyon_path = "0.17.4"
+num-traits = "0.2.14"
+usvg = "0.15.0"
