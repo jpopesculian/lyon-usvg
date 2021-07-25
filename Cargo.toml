@@ -2,8 +2,9 @@
 name = "lyon-usvg"
 version = "0.1.0"
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "Conversion between lyon and usvg"
+license = "MIT"
+repository = "https://github.com/jpopesculian/lyon-usvg"
 
 [dependencies]
 lyon_path = "0.17.4"
