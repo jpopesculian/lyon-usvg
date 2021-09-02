@@ -8,7 +8,8 @@ fn main() {
         <path fill="none" stroke="none" d="M 100 100 L 400 100 L 250 400 Z"/>
     </svg>
     "#;
-    let tree = usvg::Tree::from_str(svg, &Default::default()).unwrap();
+    let read_options = usvg::Options::default();
+    let tree = usvg::Tree::from_str(svg, &read_options.to_ref()).unwrap();
     let path = match tree.root().last_child().unwrap().borrow().deref() {
         usvg::NodeKind::Path(path) => path.data.to_path(),
         _ => panic!("should be a path"),

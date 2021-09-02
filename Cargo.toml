@@ -1,12 +1,12 @@
 [package]
 name = "lyon-usvg"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2018"
 description = "Conversion between lyon and usvg"
 license = "MIT"
 repository = "https://github.com/jpopesculian/lyon-usvg"
 
 [dependencies]
-lyon_path = "0.17.4"
-num-traits = "0.2.14"
-usvg = "0.15.0"
+lyon_path = "0.17"
+num-traits = "0.2"
+usvg = "0.16"
